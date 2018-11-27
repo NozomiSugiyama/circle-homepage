@@ -1,10 +1,11 @@
 {
-  "name": "https-www.rabbit-null.com-",
-  "version": "4.0.0",
+  "name": "circle-homepage",
+  "version": "1.0.0",
   "scripts": {
     "start": "polymer serve",
     "build": "polymer build",
-    "lint": "polymer lint"
+    "lint": "polymer lint",
+    "docker-build": "docker build -t circle-homepage:1.0.0 ./"
   },
   "dependencies": {
     "@polymer/app-route": "^3.0.2",

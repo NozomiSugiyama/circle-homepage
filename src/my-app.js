@@ -82,7 +82,7 @@ class SampleElement extends PolymerElement {
     _pageChanged(page) {
         switch (page) {
             case "home":
-                import("./rn-top-page");
+                import("./rn-top-page.js");
                 break;
             case "blog":
                 break;
